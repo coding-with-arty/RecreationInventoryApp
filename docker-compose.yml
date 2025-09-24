@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  invapp:
+    build: .
+    container_name: recreation-inventory-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./backups:/app/backups
+    environment:
+      - DB_PATH=/app/data/inventory.db
+      - LOG_LEVEL=INFO
+      - LOG_FILE=/app/logs/app.log
+      - BACKUP_DIR=/app/backups
+      # For production, uncomment and set these values
+      # - ADMIN_USERNAME=admin
+      # - ADMIN_PASSWORD=
+      # - SMTP_HOST=
+      # - SMTP_PORT=587
+      # - SMTP_USERNAME=
+      # - SMTP_PASSWORD=
+      # - SMTP_FROM_EMAIL=
+    restart: unless-stopped
