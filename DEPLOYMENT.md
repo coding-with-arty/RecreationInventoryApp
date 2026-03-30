@@ -6,7 +6,7 @@
 
 ---
 
-# Author: github/musicalviking
+# Author: github/coding-with-arty
 
 # Recreation Inventory System Deployment Guide
 

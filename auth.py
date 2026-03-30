@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 Auth.py file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 import hashlib

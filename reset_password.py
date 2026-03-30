@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 reset_password.py file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 from pathlib import Path

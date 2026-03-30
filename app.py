@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 Main application file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 import os

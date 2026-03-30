@@ -1,6 +1,6 @@
 # InvApp - Recreation Inventory Management System
 
-A comprehensive inventory management system developed for the MCC Windham Recreation Department. This application allows staff and residents to efficiently track equipment, manage users, and generate detailed reports. Developed by Arthur Belanger ([MusicalViking](https://github.com/MusicalViking)) to streamline inventory management and reporting processes.
+A comprehensive inventory management system developed for the MCC Windham Recreation Department. This application allows staff and residents to efficiently track equipment, manage users, and generate detailed reports. Developed by Arthur Belanger ([coding-with-arty](https://github.com/coding-with-arty)) to streamline inventory management and reporting processes.
 
 ## Overview
 
@@ -9,42 +9,49 @@ InvApp is a powerful, web-based inventory management solution specifically desig
 ## Key Features
 
 ### 📦 **Inventory Management**
+
 - Add, edit, and delete inventory items with comprehensive details
 - Track equipment by category, location, condition, and status
 - Real-time inventory monitoring and alerts
 - Equipment assignment and tracking
 
 ### 👥 **User Management**
+
 - Role-based access control system
 - Admin dashboard for managing employees and permissions
 - Secure authentication with password policies
 - User profile management and access logging
 
 ### 📊 **Dashboard & Analytics**
+
 - Visual overview of inventory statistics and distribution
 - Interactive charts and graphs using Plotly
 - Real-time data visualization
 - Inventory trends and usage patterns
 
 ### 📋 **Reporting System**
+
 - Generate PDF and Excel reports
 - Customizable report templates
 - Automated report scheduling
 - Export capabilities for various formats
 
 ### 💬 **Communication Tools**
+
 - Built-in post box for staff communication
 - Internal messaging system
 - Notification and alert system
 - Activity logging and audit trails
 
 ### 🔒 **Security & Compliance**
+
 - Role-based access control (RBAC)
 - Password strength validation and history tracking
 - Password expiry and reset functionality
 - Secure data encryption and backup systems
 
 ### 💾 **Data Management**
+
 - Automated database backup system
 - SQLite database with robust data integrity
 - Data import/export capabilities
@@ -63,6 +70,7 @@ InvApp is a powerful, web-based inventory management solution specifically desig
 ## Installation & Setup
 
 ### Prerequisites
+
 - Python 3.9 or higher
 - pip (Python package manager)
 - SQLite (included with Python)
@@ -70,12 +78,14 @@ InvApp is a powerful, web-based inventory management solution specifically desig
 ### Quick Start
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/ArthurBelanger207/recreation-inventory.git
    cd recreation-inventory
    ```
 
 2. **Create and activate virtual environment:**
+
    ```bash
    # Windows
    python -m venv venv
@@ -87,15 +97,18 @@ InvApp is a powerful, web-based inventory management solution specifically desig
    ```
 
 3. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Configure environment:**
+
    - Copy `.env.example` to `.env`
    - Update configuration values as needed
 
 5. **Initialize database:**
+
    ```bash
    python -c "from db_manager import initialize_db; initialize_db()"
    ```
@@ -106,10 +119,11 @@ InvApp is a powerful, web-based inventory management solution specifically desig
    ```
 
 ### Default Credentials
+
 - **Username**: admin
 - **Password**: password123
 
-*You will be prompted to change the default password on first login.*
+_You will be prompted to change the default password on first login._
 
 ## Project Structure
 
@@ -151,6 +165,7 @@ This application demonstrates several key development principles:
 ## Contributing
 
 This project follows modern development practices with:
+
 - Modular architecture for easy maintenance
 - Comprehensive logging and error handling
 - Automated testing capabilities
@@ -163,6 +178,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support & Maintenance
 
 The system includes:
+
 - Automated backup scheduling
 - System monitoring and performance tracking
 - Comprehensive logging for troubleshooting
@@ -170,6 +186,6 @@ The system includes:
 
 ---
 
-_Built and maintained by Arthur Belanger ([MusicalViking](https://github.com/MusicalViking))_
+_Built and maintained by Arthur Belanger ([coding-with-arty](https://github.com/coding-with-arty))_
 
-*Designed specifically for the MCC Windham Recreation Department to streamline inventory management and enhance operational efficiency.*
+_Designed specifically for the MCC Windham Recreation Department to streamline inventory management and enhance operational efficiency._

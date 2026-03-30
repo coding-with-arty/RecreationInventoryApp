@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 db_manager.py file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 import sqlite3
@@ -48,7 +48,7 @@ class DatabaseManager:
             else:
                 if commit:
                     conn.commit()
-                return True
+                return cursor.rowcount > 0 #Returns True only if a row was actually updated/deleted
 
         except sqlite3.Error as e:
             logger.error(f"Database error: {e}")

@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 db_utils.py file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 import sqlite3

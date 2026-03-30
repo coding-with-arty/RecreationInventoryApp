@@ -3,7 +3,7 @@ Recreation Inventory Management System
 --------------------------------------
 ui_dialogs.py file for Streamlit UI
 --------------------------------------
-Author: github/musicalviking
+Author: github/coding-with-arty
 """
 
 import streamlit as st
